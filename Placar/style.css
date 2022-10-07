@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.titulo-principal{
+    display: block;
+    text-align: center;
+    margin-top: 250px;
+    color: aqua;
+    padding: 5px;
+}
+.placar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aqua;
+    margin-left: 650px;
+    margin-right: 650px;
+    padding: 15px;
+    border-radius: 5px 5px;
+    color: #f3f3f3;
+}
+.nomes{
+    display:flex;
+    gap: 140px;
+    color: black;
+}
+.nome-equipe2{
+   margin-right:40px;
+}
+input[type="text"]{
+    border: none;
+    color: black;
+    background-color: #ffffff;
+    padding: 5px;
+    width: 30px;
+}
+input[type="button"]{
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px 5px;
+    margin: 5px;
+    background-color: #ffffff;
+}
+input[type="button"]:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+input[type="reset"]{
+    padding:8px 3px 8px;
+    border: none;
+    background-color: #ffffff;
+}
+input[type="reset"]:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+footer{
+    position: fixed;
+    bottom: 0%;
+    text-align: center;
+    width: 100%;
+    background-color: aqua;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 19pt;
+}
+tt{
+    color: black;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Loja de esportes">
+    <link rel="stylesheet" href="style.css">
+    <title>Loja de esportes</title>
+</head>
+<body>
+    <h1 class="titulo-principal">Placar do jogo</h1>
+    <div class="placar">
+        <div class="nomes">
+            <div>
+            <h3 class="nome-equipe">Equipe 1</h3>
+            </div>
+            <h3 class="nome-equipe2">Equipe 2</h3>
+        </div>
+        <div class="placar-1">
+            <input type="button" value="+" id="btnPontuar11" onclick="Pontuar(11)">
+            <input type="button" value="-" id="btnPontuar12" onclick="Pontuar(12)">
+            <input type="text" id="txtPlacar11" disabled> <tt>X</tt>
+            <input type="text" id="txtPlacar12" disabled>
+
+            <input type="button" value="+" id="btnPontuar13" onclick="Pontuar(13)">
+            <input type="button" value="-" id="btnPontuar14" onclick="Pontuar(14)">
+            <input type="reset" id="limpar" onclick="Limpar(1)" value="Limpar">
+        </div>
+        <div class="placar-2">
+            <input type="button" value="+" id="btnPontuar21" onclick="Pontuar(21)">
+            <input type="button" value="-" id="btnPontuar22" onclick="Pontuar(22)">
+            <input type="text" id="txtPlacar21" disabled>  <tt>X</tt>
+            <input type="text" id="txtPlacar22" disabled>
+
+            <input type="button" value="+" id="btnPontuar23" onclick="Pontuar(23)">
+            <input type="button" value="-" id="btnPontuar24" onclick="Pontuar(24)">
+            <input type="reset" id="limpar" onclick="Limpar(2)" value="Limpar">
+        </div>
+        <div class="placar-3">
+            <input type="button" value="+" id="btnPontuar31" onclick="Pontuar(31)">
+            <input type="button" value="-" id="btnPontuar32" onclick="Pontuar(32)">
+            <input type="text" id="txtPlacar31" disabled> <tt>X</tt>
+            <input type="text" id="txtPlacar32" disabled>
+
+            <input type="button" value="+" id="btnPontuar33" onclick="Pontuar(33)">
+            <input type="button" value="-" id="btnPontuar34" onclick="Pontuar(34)">
+            <input type="reset" id="limpar" onclick="Limpar(3)" value="Limpar">
+        </div>
+    </div>
+    <footer>Direitos reservados</footer>
+    <script src="script.js"></script>
+</body>
+</html>
